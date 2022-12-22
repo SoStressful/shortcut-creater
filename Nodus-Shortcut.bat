@@ -1,5 +1,5 @@
 @echo off
-if not exist "%LocalAppData%\FiveM\FiveM.exe" (
+if not exist "%LocalAppData%\FiveM" (
   cls
   echo FiveM location not found
   pause
