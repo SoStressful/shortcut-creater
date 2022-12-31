@@ -26,7 +26,7 @@ if errorlevel 2 goto cancel
 
 set appPath=%LocalAppData%\FiveM\FiveM.exe
 set shortcutPath=%USERPROFILE%\Desktop\FiveM Nodus.lnk
-set targetArgument=fivem://connect/66.70.153.70 -pure_1
+set targetArgument=fivem://connect/141.11.231.162 -pure_1
 set iconPath=%appPath%,0
 
 echo Set oWS = WScript.CreateObject("WScript.Shell") > createShortcut.vbs
